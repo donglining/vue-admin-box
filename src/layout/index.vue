@@ -98,6 +98,7 @@ export default defineComponent({
 .el-header {
   padding-left: 0;
   padding-right: 0;
+  height: 40px;
 }
 .el-aside {
   display: flex;

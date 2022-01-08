@@ -91,11 +91,12 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
+ 
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 40px;
     background-color: var(--system-header-background);
     padding-right: 22px;
   }
