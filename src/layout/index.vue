@@ -66,9 +66,10 @@ export default defineComponent({
     const resizeHandler = () => {
       if (document.body.clientWidth <= 1000 && !isCollapse.value) {
         store.commit("app/isCollapseChange", true);
-      } else if (document.body.clientWidth > 1000 && isCollapse.value) {
-        store.commit("app/isCollapseChange", false);
-      }
+      } 
+      // else if (document.body.clientWidth > 1000 && isCollapse.value) {
+      //   store.commit("app/isCollapseChange", false);
+      // }
     };
     // 初始化调用
     resizeHandler();

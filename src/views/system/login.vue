@@ -173,8 +173,6 @@ export default defineComponent({
     h1 {
       margin-top: 0;
     }
-    .form {
-    }
   }
 }
 </style>

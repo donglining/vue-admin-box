@@ -1,7 +1,7 @@
 <template>
   <div class="logo-container">
-    <!-- <img src="@/assets/logo.png" alt=""> -->
     <h1 v-if="!isCollapse">{{ $t(systemTitle) }}</h1>
+    <img v-else src="@/assets/logo.png" class="logo-img" alt="">
   </div>
 </template>
 
@@ -34,5 +34,8 @@ export default defineComponent({
       white-space: nowrap;
       color: var(--system-logo-color);
     }
+  }
+  .logo-img{
+    height: 60%;
   }
 </style>
