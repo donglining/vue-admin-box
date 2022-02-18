@@ -29,7 +29,8 @@ English | [简体中文](./README.zh-CN.md)
 
 ## Preview
 if you are not in China, maybe you should download the project to show the demo or use a vpn to visit the online demo.
-- [demo](http://vue-admin-box.51weblove.com) 
+- [demo China](https://cmdparkour.gitee.io/vue-admin-box/)
+- [demo World](https://cmdparkour.github.io/vue-admin-box/dist/)
 - [github address](https://github.com/cmdparkour/vue-admin-box)
 - [gitee address](https://gitee.com/cmdparkour/vue-admin-box)
 - It is recommended to use yarn or cnpm for installation in China. NPM installation is prone to problems
@@ -101,6 +102,8 @@ There are four basic templates, which are suitable for zero development and use,
 ## Partner project
 * [Thinker-Admin-Box - springboot with vue-admin-box, use java code to generate vue page](https://github.com/yirius/thinker-admin-box)
 * [H5-dooring - a low code project about the mobile website](http://h5.dooring.cn)
+* [ant-simple-pro - a middle website based on Vue3.0, react and angular](https://github.com/lgf196/ant-simple-pro)
+* [vue-vben-admin - a modern vue admin. It is based on Vue3, vite and TypeScript. It's fast！](https://github.com/vbenjs/vue-vben-admin)
 
 
 ## preview
