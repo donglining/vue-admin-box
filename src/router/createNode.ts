@@ -6,7 +6,6 @@ import reload from './reload.vue'
 import NProgress from '@/utils/system/nprogress'
 
 export function createNameComponent(component: () => Promise<any> | Component): Promise<DefineComponent<{}, {}, any>> {
-  return () => {
     return new Promise((resolve) => {
       component().then((comm: DefineComponent<{}, {}, any>) => {
         const name = (comm.default.name || 'vueAdminBox') + '$' + Date.now();
@@ -42,6 +41,5 @@ export function createNameComponent(component: () => Promise<any> | Component): 
         resolve(tempComm);
       });
     });
-  }
 }
 

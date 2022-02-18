@@ -46,8 +46,6 @@ const state = () => ({
   menuList: []
 })
 
-console.log(state);
-
 // mutations
 const mutations = {
   isCollapseChange(state: appState, type: boolean) {
