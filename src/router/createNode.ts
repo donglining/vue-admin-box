@@ -4,7 +4,7 @@ import type { DefineComponent, Component } from 'vue'
 import { defineComponent, h, createVNode, ref, nextTick } from 'vue'
 import reload from './reload.vue'
 import NProgress from '@/utils/system/nprogress'
-
+//
 export function createNameComponent(component: () => Promise<any> | Component): ()=> Promise<DefineComponent<{}, {}, any>> {
   return async () => {
     let comm = await component();
