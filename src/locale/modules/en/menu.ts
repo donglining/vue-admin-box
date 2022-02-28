@@ -70,11 +70,6 @@ export default {
       name: 'print',
       jsPrint: 'print in JS'
     },
-    community: {
-      name: 'community',
-      qq: 'qqGroup',
-      site: 'vue3 resource'
-    },
     document: {
       name: 'document',
       intro: 'intro',

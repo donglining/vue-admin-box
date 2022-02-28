@@ -96,4 +96,7 @@ export default defineComponent({
   .el-menu-item i, .el-sub-menu__title i {
     padding-right: 8px;
   }
+  .el-menu-item:hover{
+    background-color: var(--system-menu-hover-background) !important;
+  }
 </style>

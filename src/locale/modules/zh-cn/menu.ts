@@ -70,11 +70,6 @@ export default {
       name: '打印功能',
       jsPrint: 'JS打印事件'
     },
-    community: {
-      name: '社区的力量',
-      qq: 'QQ交流群',
-      site: 'vue3最新资源库'
-    },
     document: {
       name: '文档',
       intro: '使用说明',
