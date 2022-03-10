@@ -63,6 +63,7 @@ export default defineComponent({
     const route = useRoute()
     const layer = reactive({
       show: false,
+      width:'40%',
       showButton: true
     })
     const isCollapse = computed(() => store.state.app.isCollapse)
