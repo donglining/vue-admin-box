@@ -110,7 +110,7 @@ accountid： 可查询接口 [获取学校基本信息](#%E8%8E%B7%E5%8F%96%E5%A
 | PageIndex | int | 第几页 |
 | PageSize | int | 每页数量 |
 
-3. 响应参数 <span id="aaa" >TeacherInfo</span>  | PageList<TeacherInfo>
+3. 响应参数 <span id="teacher" >TeacherInfo</span>  | PageList<TeacherInfo>
 
 | 参数 | 类型 | 说明 |
 | --- | --- | --- |
@@ -141,7 +141,7 @@ accountid： 可查询接口 [获取学校基本信息](#%E8%8E%B7%E5%8F%96%E5%A
 | --- | --- | --- |
 | Ids | int[] | 教师Id集合 |
 
-1. 响应参数 [TeacherInfo](#aaa)  | List<TeacherInfo>
+1. 响应参数 [TeacherInfo](#teacher)  | List<TeacherInfo>
 
 #### 获取学生集合
 
